@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300;400;700&display=swap");
+
+/*
+Colors:
+#116193
+#01f7f2
+#EBEBEB
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #116193;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 35px;
+  color: #01f7f2;
+  cursor: pointer;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 5px;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300;400;700&display=swap");
+
+/*
+Colors:
+#116193
+#01f7f2
+#EBEBEB
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.bar {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ebebeb;
+}
+
+.input,
+textarea {
+  font-size: 16px;
+  color: #116193;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+}
+
+::-webkit-input-placeholder {
+  color: #116193;
+}
+
+:-moz-placeholder {
+  color: #116193;
+}
+
+::-moz-placeholder {
+  color: #116193;
+}
+
+:-ms-input-placeholder {
+  color: #116193;
+}

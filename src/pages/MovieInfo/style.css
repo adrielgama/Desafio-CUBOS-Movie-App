@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300;400;700&display=swap");
+
+/*
+Colors:
+#116193
+#01f7f2
+#EBEBEB
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+.row2 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.goBack {
+  margin-left: 10;
+}
+
+.inner-row-img,
+img {
+  position: relative;
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  background-color: #ebebeb;
+}
+
+.header-title {
+  font-size: 30px;
+  color: #116193;
+  text-decoration: none;
+  margin-left: 30px;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.header-data {
+  font-size: 20px;
+  color: #999999;
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 200;
+}
+
+.div-info-container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+h2 {
+  font-family: "Abel", sans-serif;
+  /*color: #01f7f2;*/
+  color: #116193;
+  margin-top: 10px;
+  padding: 10px 0 5px 20px;
+}
+
+hr {
+  border: 1px solid #01f7f2;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.ov-p {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Abel", sans-serif;
+  color: #555555;
+  margin: 15px 0 30px 0;
+  margin-left: 20px;
+  margin-right: 45px;
+}
+
+.info-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-flex ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-flex li {
+    width: 100%;
+    padding-right: 3em;
+}
+
+.info-flex > li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.info-flex p {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  color: #383838;
+  padding: 0 0 5px 20px;
+}
